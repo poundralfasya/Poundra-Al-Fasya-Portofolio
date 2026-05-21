@@ -1,0 +1,272 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Muhammad Poundra Al Fasya — Backend Engineer Portfolio</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <header class="navbar" id="navbar">
+    <div class="container nav-container">
+      <a href="#home" class="brand">Muhammad Poundra Al Fasya</a>
+      <nav class="nav-menu" id="navMenu">
+        <a href="#about" class="nav-link">About</a>
+        <a href="#education" class="nav-link">Education</a>
+        <a href="#projects" class="nav-link">Portfolio</a>
+        <a href="#contact" class="nav-link">Contact</a>
+      </nav>
+      
+      <button class="nav-toggle" id="navToggle" aria-label="Toggle navigation">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </header>
+
+  <main>
+    
+    <section class="hero" id="home">
+      <div class="container hero-grid">
+        <div class="hero-copy">
+          <h1 class="hero-title">
+            <span id="typedText"></span><span class="typing-cursor">|</span>
+          </h1>
+          <div class="hero-actions">
+            <a href="#projects" class="btn btn-primary">View Projects</a>
+            <a href="CV-POUNDRA.pdf" class="btn btn-secondary" download>Download CV</a>
+          </div>
+        </div>
+
+        <div class="hero-terminal">
+          <div class="terminal-header">
+            <div class="terminal-buttons">
+              <span class="btn-term close"></span>
+              <span class="btn-term minimize"></span>
+              <span class="btn-term expand"></span>
+            </div>
+            <div class="terminal-title">poundra@backend: ~</div>
+          </div>
+          <div class="terminal-body">
+            <p class="term-line"><span class="term-accent">→</span> <span class="term-command">neofetch</span></p>
+            <div class="term-profile-grid">
+              <div class="term-img-box">
+                <img src="poundraa.jpeg" alt="Poundra Al Fasya" class="term-avatar" />
+              </div>
+              <div class="term-info">
+                <p><span class="term-meta">User:</span> Poundra Al Fasya</p>
+                <p><span class="term-meta">Role:</span> Backend Dev Student</p>
+                <p><span class="term-meta">Loc:</span> Jakarta, ID</p>
+                <p><span class="term-meta">Status:</span> SMK Prestasi Prima</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section-light" id="about">
+      <div class="container about-grid">
+        <div class="about-left">
+          <span class="section-label">ABOUT ME</span>
+          <p class="about-text">
+            Saya adalah siswa jurusan Rekayasa Perangkat Lunak (RPL) di SMK Prestasi Prima yang berfokus pada pengembangan backend, logika program, dan pengelolaan database. Saya terbiasa memecahkan masalah kompleks melalui kode yang bersih dan terstruktur, serta sangat antusias untuk mendalami arsitektur sistem modern.
+          </p>
+        </div>
+        <div class="about-right">
+          <span class="section-label">CORE SKILLS</span>
+          <div class="skills-tags">
+            <span>Java</span><span>Python</span><span>PHP</span><span>MySQL</span>
+            <span>REST API</span><span>OOP</span><span>UML Diagram</span><span>HTML5</span>
+            <span>CSS3</span><span>JavaScript</span><span>Git & GitHub</span><span>Postman</span>
+            <span>Database Design</span><span>System Analysis</span>
+          </div>
+        </div>
+      </div>
+
+      <div class="container education-wrap" id="education">
+        <div class="education-card">
+          <div class="edu-left">
+            <h3 class="edu-title">SMK Prestasi Prima</h3>
+            <p class="edu-subtitle">Rekayasa Perangkat Lunak (RPL) · Jakarta · 2024 — Sekarang</p>
+          </div>
+          <div class="edu-right">
+            <div class="edu-stat">
+              <span class="stat-num">Aktif</span>
+              <span class="stat-label">Status Siswa</span>
+            </div>
+            <div class="edu-stat">
+              <span class="stat-num">XI</span>
+              <span class="stat-label">Tingkat Kelas</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section-dark" id="timeline">
+      <div class="container">
+        <span class="section-label">EXPERIENCE</span>
+        <h2 class="section-title-serif">Where I've worked.</h2>
+
+        <div class="experience-list">
+          <div class="exp-item">
+            <div class="exp-meta">
+              <span class="exp-date">Proyek Sekolah</span>
+              <span class="exp-status">Selesai</span>
+            </div>
+            <div class="exp-content">
+              <h3>Backend API Deployment</h3>
+              <h4 class="exp-role">Backend Developer · Tim Mandiri</h4>
+              <ul class="exp-bullets">
+                <li>Merancang arsitektur database relasional menggunakan MySQL untuk mengelola data inventaris produk seketika.</li>
+                <li>Membangun endpoint API yang aman untuk operasi CRUD serta sistem otentikasi data pengguna dengan validasi ketat.</li>
+              </ul>
+            </div>
+          </div>
+
+          <div class="exp-item">
+            <div class="exp-meta">
+              <span class="exp-date">Eksplorasi</span>
+              <span class="exp-status">Selesai</span>
+            </div>
+            <div class="exp-content">
+              <h3>Aplikasi Manajemen Data</h3>
+              <h4 class="exp-role">Java Developer · Proyek Individu</h4>
+              <ul class="exp-bullets">
+                <li>Mengimplementasikan konsep OOP (Inheritance, Polymorphism, Encapsulation) berbasis Java untuk aplikasi sekolah.</li>
+                <li>Membuat visualisasi alur sistem terintegrasi menggunakan diagram UML (Use Case & Class Diagram).</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section-light" id="projects">
+      <div class="container">
+        <span class="section-label">PORTFOLIO</span>
+        <h2 class="section-title-serif">Featured Projects</h2>
+        <p class="section-subtitle">Berikut adalah beberapa sistem dan aplikasi backend yang telah saya kembangkan.</p>
+<div class="project-item">
+  <div class="project-content">
+    <span class="section-label-small">WEB DEVELOPMENT & BACKEND INTEGRATION</span>
+    <h3>TifoView – Web Gallery Platforms</h3>
+    <p class="project-text">
+      Membangun platform galeri berbasis web untuk manajemen dan pengarsipan karya seni tribun (tifo). Sistem ini mengintegrasikan otentikasi multi-user, manajemen basis data relasional untuk fitur interaksi (likes, real-time komentar, dan album kustom), serta sistem pemrosesan enkapsulasi berkas gambar ke dalam storage server.
+    </p>
+    <div class="project-stack">
+      <span>Laravel</span><span>PHP</span><span>MySQL</span><span>JavaScript</span><span>Bootstrap</span>
+    </div>
+  </div>
+
+  <div class="project-slider-wrap">
+    <div class="project-image-view">
+      <div class="slide-container" id="project1">
+        <div class="slide-item active"><img src="1.png" alt="TifoView Screenshot 1" class="project-svg" /></div>
+        <div class="slide-item"><img src="2.png" alt="TifoView Screenshot 2" class="project-svg" /></div>
+        <div class="slide-item"><img src="3.png" alt="TifoView Screenshot 3" class="project-svg" /></div>
+        <div class="slide-item"><img src="4.png" alt="TifoView Screenshot 4" class="project-svg" /></div>
+        <div class="slide-item"><img src="5.png" alt="TifoView Screenshot 5" class="project-svg" /></div>
+        <div class="slide-item"><img src="6.png" alt="TifoView Screenshot 6" class="project-svg" /></div>
+        <div class="slide-item"><img src="7.png" alt="TifoView Screenshot 7" class="project-svg" /></div>
+        <div class="slide-item"><img src="8.png" alt="TifoView Screenshot 8" class="project-svg" /></div>
+        <div class="slide-item"><img src="9.png" alt="TifoView Screenshot 9" class="project-svg" /></div>
+      </div>
+    </div>
+    <div class="slider-controls">
+      <button class="slider-btn prev-btn" data-target="#project1">&#10229;</button>
+      <button class="slider-btn next-btn" data-target="#project1">&#10230;</button>
+    </div>
+  </div>
+</div>
+
+<hr class="project-divider" style="opacity: 0.05; margin: 5rem 0;">
+
+<div class="project-item">
+  <div class="project-content">
+    <span class="section-label-small">WEB DEVELOPMENT & DATABASE MANAGEMENT</span>
+    <h3>Archivio – Pengarsipan & Galeri Foto Berbasis Web</h3>
+    <p class="project-text">
+     Membangun aplikasi web pengarsipan mandiri menggunakan PHP Native untuk manajemen koleksi dokumentasi visual. Sistem ini menerapkan fungsi CRUD (Create, Read, Update, Delete) secara manual dengan konektivitas basis data MySQL langsung, serta dilengkapi dengan fitur enkapsulasi unggah berkas gambar ke direktori server, sistem autentikasi pengguna berbasis session, dan manajemen relasi data album secara terstruktur.
+    </p>
+    <div class="project-stack">
+      <span>PHP Native</span><span>MySQL</span><span>HTML5</span><span>CSS3</span><span>JavaScript</span>
+    </div>
+  </div>
+
+  <div class="project-slider-wrap">
+    <div class="project-image-view">
+      <div class="slide-container" id="project2">
+        <div class="slide-item active"><img src="ar1.png" alt="Archivio Screenshot 1" class="project-svg" /></div>
+        <div class="slide-item"><img src="ar2.png" alt="Archivio Screenshot 2" class="project-svg" /></div>
+        <div class="slide-item"><img src="ar3.png" alt="Archivio Screenshot 3" class="project-svg" /></div>
+        <div class="slide-item"><img src="ar4.png" alt="Archivio Screenshot 4" class="project-svg" /></div>
+        <div class="slide-item"><img src="ar5.png" alt="Archivio Screenshot 5" class="project-svg" /></div>
+        <div class="slide-item"><img src="ar6.png" alt="Archivio Screenshot 6" class="project-svg" /></div>
+        <div class="slide-item"><img src="ar7.png" alt="Archivio Screenshot 7" class="project-svg" /></div>
+      </div>
+    </div>
+    <div class="slider-controls">
+      <button class="slider-btn prev-btn" data-target="#project2">&#10229;</button>
+      <button class="slider-btn next-btn" data-target="#project2">&#10230;</button>
+    </div>
+  </div>
+</div>
+  </div>
+</div>
+    <section class="section-light contact-section" id="contact">
+      <div class="container contact-center">
+        <h2 class="contact-title-serif">Let's <span class="contact-accent-serif">Connect</span></h2>
+        
+        <div class="contact-divider"></div>
+
+     <p class="contact-quote">
+ Currently starting my journey in backend engineering, sharpening my logic and SQL skills day by day. I love exploring new tools and tech to solve problems. If you have any beginner-friendly projects or just want to say hi, feel free to reach out
+</p>
+        
+        <div class="contact-socials">
+          <a href="mailto:poundraf88@email.com" class="social-icon" aria-label="Email">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" style="width: 28px; height: 28px; color: #4a5568;">
+              <path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"></path>
+              <polyline points="22,6 12,13 2,6"></polyline>
+            </svg>
+          </a>
+
+          <a href="https://github.com/malfponra" class="social-icon" aria-label="GitHub">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" style="width: 28px; height: 28px; color: #4a5568;">
+              <path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"></path>
+            </svg>
+          </a>
+
+          <a href="https://www.instagram.com/altairofdafirenze" class="social-icon" aria-label="Instagram">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" style="width: 28px; height: 28px; color: #4a5568;">
+              <rect x="2" y="2" width="20" height="20" rx="5" ry="5"></rect>
+              <path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"></path>
+              <line x1="17.5" y1="6.5" x2="17.51" y2="6.5"></line>
+            </svg>
+          </a>
+
+          <a href="https://wa.me/6281284938129" class="social-icon" aria-label="WhatsApp">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" style="width: 28px; height: 28px; color: #4a5568;">
+              <path d="M21 11.5a8.38 8.38 0 0 1-.9 3.8 8.5 8.5 0 0 1-7.6 4.7 8.38 8.38 0 0 1-3.8-.9L3 21l1.9-5.7a8.38 8.38 0 0 1-.9-3.8 8.5 8.5 0 0 1 4.7-7.6 8.38 8.38 0 0 1 3.8-.9h.5a8.48 8.48 0 0 1 8 8v.5z"></path>
+            </svg>
+          </a>
+        </div>
+      </div>
+    </section>
+  </main>
+
+ <footer class="footer">
+  <div class="container footer-content">
+    <p>© 2026 Poundra Al Fasya. Built from the ground up.</p>
+    <a href="CV-POUNDRA.pdf" class="btn btn-secondary" download>Download CV</a>
+  </div>
+</footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
