@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://poundraalfasya.id/sitemal.xml
